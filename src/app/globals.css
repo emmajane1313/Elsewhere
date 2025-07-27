@@ -1,26 +1,189 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Halis";
+  src: url("/fonts/HalisGRBlack.otf");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "Morgan";
+  src: url("/fonts/Morgan.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@font-face {
+  font-family: "Day";
+  src: url("/fonts/Day.ttf");
+}
+
+@font-face {
+  font-family: "One";
+  src: url("/fonts/YesevaOne.ttf");
+}
+
+@font-face {
+  font-family: "Klarissa";
+  src: url("/fonts/Klarissa.ttf");
+}
+
+@font-face {
+  font-family: "Rom";
+  src: url("/fonts/Rom.ttf");
+}
+
+@font-face {
+  font-family: "Roman";
+  src: url("/fonts/Roman.ttf");
+}
+
+@font-face {
+  font-family: "Sunday";
+  src: url("/fonts/Sunday.otf");
+}
+
+@font-face {
+  font-family: "Kon R";
+  src: url("/fonts/KonReg.otf");
+}
+
+@font-face {
+  font-family: "Kon B";
+  src: url("/fonts/KonBold.otf");
+}
+
+@font-face {
+  font-family: "Kon M";
+  src: url("/fonts/KonMed.otf");
+}
+
+@theme {
+  --font-hal: "Halis";
+  --font-morgan: "Morgan";
+  --font-one: "One";
+  --font-klar: "Klarissa";
+  --font-rom: "Rom";
+  --font-roman: "Roman";
+  --font-sunday: "Sunday";
+  --font-day: "Day";
+  --font-konR: "Kon R";
+  --font-konB: "Kon B";
+  --font-konM: "Kon M";
+
+  --color-rojo: #f5331a;
+  --color-nubes: #c0bebe;
+}
+
+@layer utilities {
+  .font-hal {
+    font-family: var(--font-hal);
+  }
+
+  .font-konR {
+    font-family: var(--font-konR);
+  }
+
+  .font-konM {
+    font-family: var(--font-konM);
+  }
+
+  .font-konB {
+    font-family: var(--font-konB);
+  }
+
+  .font-klar {
+    font-family: var(--font-klar);
+  }
+
+  .font-day {
+    font-family: var(--font-day);
+  }
+
+  .font-morgan {
+    font-family: var(--font-morgan);
+  }
+
+  .font-one {
+    font-family: var(--font-one);
+  }
+
+  .font-rom {
+    font-family: var(--font-rom);
+  }
+
+  .font-roman {
+    font-family: var(--font-roman);
+  }
+
+  .font-sunday {
+    font-family: var(--font-sunday);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+html::-webkit-scrollbar-track:active {
+  background-color: transparent !important;
+  opacity: 0;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background-color: transparent !important;
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar-track:active {
+  background-color: transparent !important;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar-thumb:active {
+  background-color: transparent !important;
+}
+
+.resistance-banner {
+  background: linear-gradient(
+    135deg,
+    #000 0%,
+    #f5331a 25%,
+    #000 50%,
+    #000 75%,
+    #000 100%
+  );
+  background-size: 200% 200%;
+  animation: propagandaShift 7s ease-in-out infinite;
+}
+
+@keyframes propagandaShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
