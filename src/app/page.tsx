@@ -115,8 +115,8 @@ export default function Home() {
             Assizes, 4th August 1831. Sweat, ink, and piss. Sentenced in
             seconds. Guilty. Stealing coins from employer. 7 years
             transportation. Age 18. Blue grey eyes. Fair to ruby. Few Freckles.
-            Tattoo upper right arm - MKJS. It's time for the empire to clean the
-            streets of London's poor. The gravel hits. Three months rotting in
+            Tattoo upper right arm - MKJS. It&lsquo;s time for the empire to clean the
+            streets of London&lsquo;s poor. The gravel hits. Three months rotting in
             pre-departure limbo. Woolwich dockyard is only a few short weeks
             away.
           </div>
@@ -159,7 +159,7 @@ export default function Home() {
           <div className="relative w-fit h-fit font-rom text-rojo text-[4vw] md:text-[5vw]">
             The Pyramus Vessel.
           </div>
-          <div className="text-justify text-sm md:text-base">
+          <div className="text-justify text-sm md:text-3xl">
             Departure: 8th October 1831. 149 women loaded in batches from 40
             different prisons. 8 women to a berth. 8 women to a single gallon of
             fresh water weekly for washing. Five grueling months.
@@ -167,14 +167,13 @@ export default function Home() {
           <div className="relative w-fit text-justify h-fit font-sunday text-[3vw] md:text-[4vw]">
             The machinary of class punishment.
           </div>
-          <div className="relative w-fit h-fit font-sunday text-justify text-sm md:text-base">
+          <div className="relative w-fit h-fit font-sunday text-justify text-sm md:text-3xl">
             The coded language of sailors drinking below deck that caused
             “mischief”. Rape, Harassment, Power Abuse. Arrival: 5th March 1832,
             New South Wales. Mrs Moore already pre-applied before the ship even
             landed. A convict asset at your service, assigned like stock.{" "}
           </div>
         </div>
-
         <div className="bg-black text-white flex flex-col justify-center items-center w-full h-full">
           <div className="relative w-full h-full flex">
             <Image
@@ -189,10 +188,10 @@ export default function Home() {
       </div>
       <div className="bg-white text-black w-full flex flex-col p-2 md:p-4 gap-2">
         <div className="relative w-full flex leading-none text-justify text-[4vw] md:text-[5vw] font-konB text-black">
-          Reassigned to a convict man at 24. Spinster on certificate. 1837. Arrested for drunkenness and
-          public exposure. All that's left is defiance through self-destruction.
-          Her name doesn't even make the death record. Thrown in an unmarked
-          grave. 1855.
+          Reassigned to a convict man at 24. Spinster on certificate. 1837.
+          Arrested for drunkenness and public exposure. All that&lsquo;s left is
+          defiance through self-destruction. Her name doesn&lsquo;t even make the
+          death record. Thrown in an unmarked grave. 1855.
         </div>
         <div className="relative w-full flex leading-none text-justify text-[1.5vw] md:text-[2vw] font-konR text-black">
           God? Queen? Country? Australia never officially had African chattel
@@ -201,6 +200,29 @@ export default function Home() {
           Blackbirding, Stolen Generations.
         </div>
       </div>
+      <div className="w-full h-[1vw] flex flex-row justify-between items-center relative bg-black">
+        <video
+          autoPlay
+          loop
+          muted
+          poster={`/images/matrix.png`}
+          draggable={false}
+          className="absolute object-cover top-0 left-0 w-full h-full flex"
+        >
+          <source src="/videos/matrix.mp4" />
+        </video>
+        {Array.from({ length: 9 }).map((_, i) => {
+          return (
+            <div
+              key={i}
+              className={`relative flex h-full w-full ${
+                i % 2 == 0 && "bg-rojo"
+              }`}
+            ></div>
+          );
+        })}
+      </div>
+      <div className="relative bg-rojo flex"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 w-full min-h-screen text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
         <div className="bg-white flex gap-4 flex-col justify-center items-start p-8">
           <div className="text-4xl font-one flex w-fit h-fit text-left leading-tight">
