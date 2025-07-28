@@ -5,7 +5,7 @@ const Footer: FunctionComponent = () => {
   return (
     <>
       <div
-        className="relative bg-white mt-12 w-full h-fit font-konB text-[3vw] leading-tight text-rojo overflow-hidden p-4 text-justify"
+        className="relative bg-white mt-12 w-full h-fit font-konB text-[5vw] sm:text-[3vw] leading-tight text-rojo overflow-hidden p-4 text-justify"
         style={{
           textJustify: "inter-word",
         }}
@@ -98,7 +98,7 @@ const Footer: FunctionComponent = () => {
           draggable={false}
         />
       </div>
-      <div className="w-full bg-white text-black min-h-screen relative">
+      <div className="w-full bg-white justify-between flex flex-col text-black min-h-screen relative">
         <div className="flex flex-col items-center py-16 px-4">
           <h2 className="text-lg font-one mb-8 tracking-wider">
             Burned at the edge of a new world. Pressed into the skin. 23
@@ -106,8 +106,8 @@ const Footer: FunctionComponent = () => {
           </h2>
         </div>
 
-        <div className="relative overflow-hidden py-16">
-          <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative py-16" style={{overflowX: 'hidden', overflowY: 'visible'}}>
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
             <div className="animate-spin" style={{ animationDuration: "60s" }}>
               <Image
                 src="/images/celtic.png"
@@ -119,7 +119,7 @@ const Footer: FunctionComponent = () => {
               />
             </div>
           </div>
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
             <div className="animate-spin" style={{ animationDuration: "20s" }}>
               <Image
                 src="/images/celtic_gris.png"

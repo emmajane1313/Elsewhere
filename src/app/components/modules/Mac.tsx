@@ -5,7 +5,7 @@ const Mac: FunctionComponent = () => {
   return (
     <>
       <div className="w-full min-h-screen bg-gray-50 flex flex-col justify-center items-center">
-        <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB">
+        <div className="flex relative items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-x-hidden w-full max-w-full">
           <span className="text-[8vw] md:text-[12vw]">M</span>
           <span className="text-[8vw] md:text-[12vw]">A</span>
           <span className="text-[8vw] md:text-[12vw]">C</span>
@@ -22,7 +22,7 @@ const Mac: FunctionComponent = () => {
           <span className="text-[8vw] md:text-[12vw]">I</span>
           <span className="text-[8vw] md:text-[12vw]">N</span>
         </div>
-        <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none">
+        <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-x-hidden w-full max-w-full">
           <span className="text-[8vw] md:text-[12vw]">M</span>
           <span className="text-[8vw] md:text-[12vw]">A</span>
           <span className="text-[8vw] md:text-[12vw]">C</span>
@@ -35,18 +35,18 @@ const Mac: FunctionComponent = () => {
           <span className="text-[8vw] md:text-[12vw]">O</span>
           <span className="text-[8vw] md:text-[12vw]">N</span>
         </div>
-        <div className="relative w-full h-fit flex text-justify font-rom text-[3vw] bg-rojo text-black">
+        <div className="relative w-full h-fit flex text-justify font-rom text-[5vw] sm:text-[3vw] bg-rojo text-black">
           At the edge of their past in smoke and ash. Feeling for warmth that's
           no longer there. House to house through Kilmuir, then Glendale, then
           Stenscholl. The last Skye born, 1857. All gone after the Highland
           Clearances. Before forced diaspora.
         </div>
-        <div className="flex relative min-h-screen w-full">
+        <div className="flex relative h-96 md:min-h-screen w-full">
           <Image
-            src="/images/ship.png"
-            alt="Emma-Jane MacKinnon-Lee Portrait Earrings"
+            src="/images/skye.png"
+            alt="Skye"
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             draggable={false}
           />
         </div>
@@ -82,12 +82,12 @@ const Mac: FunctionComponent = () => {
             of the Royal College of Surgeons in Ireland.
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-1 w-full min-h-80 text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-3 lg:grid-rows-1 w-full lg:min-h-80 text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
           <div className="bg-rojo flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
+            <div className="relative w-full lg:min-h-full min-h-80 h-full flex">
               <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
+                src={"/images/boar.png"}
+                alt="Boar"
                 objectFit="contain"
                 draggable={false}
                 layout="fill"
@@ -95,10 +95,10 @@ const Mac: FunctionComponent = () => {
             </div>
           </div>
           <div className="bg-black flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
+            <div className="relative w-full h-full lg:min-h-full min-h-80 flex">
               <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
+                src={"/images/castle.png"}
+                alt="Castle"
                 objectFit="contain"
                 draggable={false}
                 layout="fill"
@@ -106,10 +106,10 @@ const Mac: FunctionComponent = () => {
             </div>
           </div>
           <div className="bg-rojo flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
+            <div className="relative w-full h-full lg:min-h-full min-h-80 flex">
               <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
+                src={"/images/kilt.png"}
+                alt="Kilt"
                 objectFit="contain"
                 draggable={false}
                 layout="fill"
@@ -117,49 +117,19 @@ const Mac: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-fit flex text-[6vw] text-justify justify-center px-2 font-konB text-black">
+        <div className="relative w-full h-fit flex text-[12vw] sm:text-[6vw] text-justify justify-center px-2 font-konB text-black">
           Patience, Highlander.
           <br />
           You have done well. With heart, faith and steel. In the end there can
           be only one.
         </div>
-        <div className="text-rojo relative flex px-1 text-[5vw] font-morgan">
+        <div className="text-rojo relative flex px-1 text-[9vw] sm:text-[5vw] font-morgan">
           Although their remains rest in Australia, all 3 are Men of Skye.
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-1 w-full min-h-80 text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
-          <div className="bg-rojo flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
-              <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
-                objectFit="contain"
-                draggable={false}
-                layout="fill"
-              />
-            </div>
-          </div>
-          <div className="bg-black flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
-              <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
-                objectFit="contain"
-                draggable={false}
-                layout="fill"
-              />
-            </div>
-          </div>
-          <div className="bg-rojo flex flex-col justify-center items-center p-8">
-            <div className="relative w-full h-full flex">
-              <Image
-                src={"/images/unicorn.png"}
-                alt="Unicorn"
-                objectFit="contain"
-                draggable={false}
-                layout="fill"
-              />
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-1 w-full h-8 text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
+          <div className="bg-rojo flex"></div>
+          <div className="bg-black flex"></div>
+          <div className="bg-rojo flex"></div>
         </div>
         <div className="relative w-full h-fit flex text-black font-one text-justify p-1 text-lg">
           One of the oldest clans of the Isles. A branch of the Siol Alpin,
@@ -176,7 +146,7 @@ const Mac: FunctionComponent = () => {
           failed uprisings, and like many Highland clans, they were scattered by
           the Clearances.
         </div>
-        <div className="relative bg-black w-full text-[3vw] font-klar p-2 flex">
+        <div className="relative bg-black w-full text-[5vw] sm:text-[3vw] font-klar p-2 flex">
           And the island tapestry spreads. MacDonald. And MacLeod. And even
           Norse-blooded Lamont, Argyll-forged. Cuimhnich Bàs Ailpein! Cuimhnich
           Bàs Ailpein! Cuimhnich Bàs Ailpein!

@@ -4,7 +4,7 @@ import { FunctionComponent } from "react";
 const Kil: FunctionComponent = () => {
   return (
     <>
-      <div className="relative bg-rojo flex text-white font-morgan p-4 text-[4vw] text-justify">
+      <div className="relative bg-rojo flex text-white font-morgan p-4 text-[6vw] sm:text-[4vw] text-justify">
         Máire Áine Ní Ghiolla Ghannáin. But on a ship manifest, just write
         Kilgannon. Easier to file. Easier to forget. Donegal says she left.
         Sydney says she arrived. 1861 or earlier. A British Trident. And with
@@ -26,20 +26,20 @@ const Kil: FunctionComponent = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 w-full h-fit text-center text-black text-white font-serif">
         <div className="flex gap-4 flex-col justify-center items-start p-4 md:p-8">
-          <div className="text-[3vw] font-one w-full items-center justify-center h-fit text-left uppercase">
+          <div className="text-[6vw] sm:text-[3vw] font-one w-full items-center justify-center h-fit text-left uppercase">
             Daughter of the devotee of Gannán. In these borderlands, The sí, The
             banshee. And did a Christian God force you underground? A kind of
             cutting. What did the Empire require you to write down? A holy well
             or a rag tree? Her name came from Tireragh. A Moy-side hill people.
           </div>
         </div>
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center items-center bg-white w-full h-full">
           <div className="relative w-full h-full flex">
             <Image
               layout="fill"
-              objectFit="cover"
-              src={"/images/ship.png"}
-              alt="Naval Eye"
+              objectFit="contain"
+              src={"/images/ragtree.png"}
+              alt="Rag Tree"
               draggable={false}
             />
           </div>
@@ -50,7 +50,7 @@ const Kil: FunctionComponent = () => {
               Abhainn na Muaidhe.
             </div>
             <div className="text-justify text-sm md:text-3xl">
-              The River of the noble one.
+              The River of the noble one. A heart of Gaelic memory.
             </div>
           </div>
 
@@ -62,13 +62,13 @@ const Kil: FunctionComponent = () => {
             Age 27. 1882.
           </div>
         </div>
-        <div className="bg-black text-white flex justify-center items-center w-full h-full">
+        <div className="bg-white text-white flex justify-center items-center w-full h-full">
           <div className="relative w-full h-full flex">
             <Image
               layout="fill"
-              objectFit="cover"
-              src={"/images/ship.png"}
-              alt="Naval Eye"
+              objectFit="contain"
+              src={"/images/river.png"}
+              alt="The River of the Noble One"
               draggable={false}
             />
           </div>

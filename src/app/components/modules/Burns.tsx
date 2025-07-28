@@ -23,19 +23,19 @@ const Burns: FunctionComponent = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 w-full h-fit text-center text-black text-white font-serif">
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center bg-white items-center w-full h-full">
           <div className="relative w-full h-full flex">
             <Image
               layout="fill"
-              objectFit="cover"
-              src={"/images/ship.png"}
-              alt="Naval Eye"
+              objectFit="contain"
+              src={"/images/blackmaria.png"}
+              alt="Black Maria"
               draggable={false}
             />
           </div>
         </div>
         <div className="flex gap-4 flex-col justify-center items-start p-4 md:p-8">
-          <div className="text-[4vw] md:text-[5vw] font-konR w-full items-center justify-center h-fit text-center leading-[0.75] uppercase">
+          <div className="text-[10vw] md:text-[5vw] font-konR w-full items-center justify-center h-fit text-center leading-[0.75] uppercase">
             Right then,
             <br />
             <br />
@@ -50,13 +50,13 @@ const Burns: FunctionComponent = () => {
             <br />
             Into the Black Maria you thieving sluts!
           </div>
-          <div className="text-xs md:text-sm w-fit h-fit font-hal flex text-rojo">
+          <div className="text-center text-[3vw] sm:text-[1vw] w-full justify-center h-fit font-hal flex text-rojo mt-3">
             Ann turns her head, just slightly, to look back at the city. She
             will never see it, nor her family, ever again.
           </div>
         </div>
         <div className="flex gap-4 flex-col justify-between items-start p-4 md:p-8 min-h-[50vh] md:min-h-screen text-left text-lg md:text-2xl lg:text-3xl">
-          <div className="relative w-fit h-fit font-rom text-rojo text-[4vw] md:text-[5vw]">
+          <div className="relative w-fit h-fit font-rom text-rojo text-[7vw] md:text-[5vw]">
             The Pyramus Vessel.
           </div>
           <div className="text-justify text-sm md:text-3xl">
@@ -64,7 +64,7 @@ const Burns: FunctionComponent = () => {
             different prisons. 8 women to a berth. 8 women to a single gallon of
             fresh water weekly for washing. Five grueling months.
           </div>
-          <div className="relative w-fit text-justify h-fit font-sunday text-[3vw] md:text-[4vw]">
+          <div className="relative w-fit text-justify h-fit font-sunday text-[6vw] md:text-[4vw]">
             The machinary of class punishment.
           </div>
           <div className="relative w-fit h-fit font-sunday text-justify text-sm md:text-3xl">
@@ -74,26 +74,26 @@ const Burns: FunctionComponent = () => {
             landed. A convict asset at your service, assigned like stock.{" "}
           </div>
         </div>
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center bg-white items-center w-full h-full">
           <div className="relative w-full h-full flex">
             <Image
               layout="fill"
-              objectFit="cover"
-              src={"/images/ship.png"}
-              alt="Naval Eye"
+              objectFit="contain"
+              src={"/images/grave.png"}
+              alt="Unmarked Grave"
               draggable={false}
             />
           </div>
         </div>
       </div>
       <div className="bg-white text-black w-full flex flex-col p-2 md:p-4 gap-2">
-        <div className="relative w-full flex leading-none text-justify text-[4vw] md:text-[5vw] font-konB text-black">
+        <div className="relative w-full flex leading-none text-justify text-[8vw] md:text-[5vw] font-konB text-black">
           Reassigned to a convict man at 24. Spinster on certificate. 1837.
           Arrested for drunkenness and public exposure. All that&lsquo;s left is
           defiance through self-destruction. Her name doesn&lsquo;t even make
           the death record. Thrown in an unmarked grave. 1855.
         </div>
-        <div className="relative w-full flex leading-none text-justify text-[1.5vw] md:text-[2vw] font-konR text-black">
+        <div className="relative w-full flex leading-none text-justify text-[4vw] md:text-[2vw] font-konR text-black">
           God? Queen? Country? Australia never officially had African chattel
           slavery like the Caribbean or American South. It had a different,
           equally brutal system. Just bureaucratically rebranded: Convicts,

@@ -4,7 +4,7 @@ import { FunctionComponent } from "react";
 const Robbins: FunctionComponent = () => {
   return (
     <>
-      <div className="relative w-full h-fit flex items-center flex-col gap-4 bg-white">
+      <div className="relative w-full h-fit flex items-center flex-col gap-4 bg-white px-2">
         <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB">
           <span className="text-[8vw] md:text-[12vw]">r</span>
           <span className="text-[8vw] md:text-[12vw]">o</span>
@@ -27,10 +27,10 @@ const Robbins: FunctionComponent = () => {
         </div>
         <div className="flex relative h-[40vw] w-[50vw]">
           <Image
-            src="/images/emmajanemackinnonlee_wind.png"
-            alt="Emma-Jane MacKinnon-Lee Portrait Wind"
+            src="/images/tattoo.png"
+            alt="Tattoo"
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             draggable={false}
           />
         </div>

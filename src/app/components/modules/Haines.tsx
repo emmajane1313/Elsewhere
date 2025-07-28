@@ -5,22 +5,23 @@ const Haines: FunctionComponent = () => {
   return (
     <>
       <div className="relative w-full h-fit bg-white flex">
-        <div className="relative w-full h-[30rem]">
+        <div className="relative w-full ">
           <Image
-            layout="fill"
-            objectFit="cover"
-            src={"/images/ship.png"}
-            alt="Naval Eye"
+            layout="responsive"
+            width={1280}
+            height={720}
+            src={"/images/curiosity.png"}
+            alt="Curiosity Shop"
             draggable={false}
           />
         </div>
       </div>
       <div className="relative bg-white flex flex-col text-black p-4">
-        <div className="relative w-fit h-fit flex text-[4vw] font-konB">
+        <div className="relative w-fit h-fit flex text-[6vw] sm:text-[4vw] font-konB">
           And Hyam was selling tchotchkes in the Middlesex curiosity shop. Robin
           Hood Lane, East End Near the Docks.
         </div>
-        <div className="relative w-fit h-fit text-rojo flex text-[4vw] font-konM">
+        <div className="relative w-fit h-fit text-rojo flex text-[6vw] sm:text-[4vw] font-konM">
           Trinkets, clocks, broken combs, lockets, thimbles, crystal
           paperweights, skeleton keys, pressed flowers in frames, sealing wax
           stamps, chipped teacups.
@@ -52,10 +53,10 @@ const Haines: FunctionComponent = () => {
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center p-8">
-          <div className="relative w-full h-full flex">
+          <div className="relative w-full h-72 lg:h-full flex">
             <Image
-              src={"/images/unicorn.png"}
-              alt="Unicorn"
+              src={"/images/manifest.png"}
+              alt="Ship Manifest Retyped"
               objectFit="contain"
               draggable={false}
               layout="fill"
@@ -82,7 +83,7 @@ const Haines: FunctionComponent = () => {
       </div>
 
       <div className="bg-black text-white flex flex-col justify-center items-start p-8 text-left">
-        <div className="text-[3vw] text-justify leading-none flex font-klar">
+        <div className="text-[6vw] sm:text-[3vw] text-justify leading-none flex font-klar">
           Mormons try to hijack history. They tried to buy your soul. In a
           hundred years the record will suggest that you converted. Mid 20th
           century, Mormon archivists steal ship manifests and transcribe global

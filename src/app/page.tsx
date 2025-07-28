@@ -59,7 +59,7 @@ export default function Home() {
         );
       })}
 
-      <div className="h-screen w-full bg-black relative resistance-banner">
+      <div className="h-screen w-full bg-black relative resistance-banner overflow-hidden">
         <div className="absolute top-0 left-0 opacity-70 flex w-full h-full">
           <Image
             layout="fill"
