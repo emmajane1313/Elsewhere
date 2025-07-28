@@ -18,8 +18,16 @@ function generateStaticUrls(baseUrl: string, paths: { path: string }[]) {
             texto: "Wind in Hair",
           },
           {
+            imagem: "emmajanemackinnonlee_portraitfront",
+            texto: "Front Portrait",
+          },
+          {
             imagem: "emmajanemackinnonlee_blink",
             texto: "Blinking",
+          },
+          {
+            imagem: "emmajanemackinnonlee_portraitearrings",
+            texto: "Portrait Earrings",
           },
         ].map(
           (im) =>
@@ -27,10 +35,10 @@ function generateStaticUrls(baseUrl: string, paths: { path: string }[]) {
             <image:loc>${`${baseUrl}/images/${im.imagem}.png`}</image:loc>
             <image:title><![CDATA[${
               im.texto
-            } | Emma-Jane MacKinnon-Lee ]]></image:title>
+            } | Elsewhere | Emma-Jane MacKinnon-Lee ]]></image:title>
             <image:caption><![CDATA[${
               im.texto
-            } | Emma-Jane MacKinnon-Lee]]></image:caption>
+            } | Elsewhere | Emma-Jane MacKinnon-Lee]]></image:caption>
           </image:image>`
         )}
       </url>
