@@ -10,7 +10,7 @@ const Burns: FunctionComponent = () => {
         </div>
         <div className="relative w-full min-h-fit h-auto md:h-[32rem] items-end font-day flex text-white">
           <div className="relative flex w-fit text-sm md:text-xl lg:text-2xl h-fit">
-            Two guards flank her now. Irons at the wrists catch courthouse
+            Two guards flank her now. Iron at the wrists catches courthouse
             light, throwing fractured reflections across stone walls. Surrey
             Assizes, 4th August 1831. Sweat, ink, and piss. Sentenced in
             seconds. Guilty. Stealing coins from employer. 7 years

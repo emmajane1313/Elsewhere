@@ -5,7 +5,7 @@ const Mac: FunctionComponent = () => {
   return (
     <>
       <div className="w-full min-h-screen bg-gray-50 flex flex-col justify-center items-center">
-        <div className="flex relative items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-x-hidden w-full max-w-full">
+        <div className="flex relative items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-hidden w-full max-w-full">
           <span className="text-[8vw] md:text-[12vw]">M</span>
           <span className="text-[8vw] md:text-[12vw]">A</span>
           <span className="text-[8vw] md:text-[12vw]">C</span>
@@ -22,7 +22,7 @@ const Mac: FunctionComponent = () => {
           <span className="text-[8vw] md:text-[12vw]">I</span>
           <span className="text-[8vw] md:text-[12vw]">N</span>
         </div>
-        <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-x-hidden w-full max-w-full">
+        <div className="flex items-center justify-center space-x-4 md:space-x-8 text-black font-konB leading-none overflow-x-hidden w-full max-w-full overflow-hidden">
           <span className="text-[8vw] md:text-[12vw]">M</span>
           <span className="text-[8vw] md:text-[12vw]">A</span>
           <span className="text-[8vw] md:text-[12vw]">C</span>
@@ -52,9 +52,8 @@ const Mac: FunctionComponent = () => {
         </div>
         <div className="relative w-full h-fit flex flex-row p-4 gap-3 text-black font-day">
           <div className="relative w-fit h-fit flex">
-            Mac Fhionghuin. The last born in Skye, 1857. Son of Fair Born. Isle
-            of Skye. Isle of Mull. All gone after the Highland Clearances.
-            Before forced diaspora. Generations between Kilmuir, Glendale, and
+            Mac Fhionghuin. Son of Fair Born. Isle
+            of Skye. Isle of Mull. Generations between Kilmuir, Glendale, and
             Stenscholl.
             <br />
             <br />

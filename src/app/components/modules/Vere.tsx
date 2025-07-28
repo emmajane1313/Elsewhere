@@ -18,9 +18,7 @@ const Vere: FunctionComponent = () => {
         </div>
 
         <div className="bg-black flex text-right text-[5vw] sm:text-[2.2vw] items-center p-8 font-one text-white">
-          Vere. A classic French Norman name, knightly, patrician. From the town
-          of Ver in Normandy. Brought to England in 1066 by Aubrey de Vere,
-          riding with William the Conqueror.
+          But what was a Vere doing in Madrid by 1825? After the Peninsular Wars, stationed there, or stranded. Identity anxiety soaks in. The Vere drops to Lee only. Reinvents. Migrates.
         </div>
       </div>
       <div className="relative w-full h-96 md:h-screen flex py-10 px-3">
@@ -33,11 +31,6 @@ const Vere: FunctionComponent = () => {
             layout="fill"
           />
         </div>
-      </div>
-      <div className="bg-rojo flex text-justify text-[5vw] sm:text-[2.2vw] items-center p-8 font-konB w-full h-fit">
-        But what was a Vere doing in Madrid by 1825? After the Peninsular Wars,
-        stationed there, or stranded. Identity anxiety soaks in. The Vere drops
-        to Lee only. Reinvents. Migrates.
       </div>
       <div className="bg-white text-rojo flex text-justify text-[5vw] sm:text-[2.2vw] items-center p-8 font-konB w-full h-fit">
         A full colonial life claimed. To marry the daughter of a transported
