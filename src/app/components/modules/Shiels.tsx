@@ -33,7 +33,7 @@ const Shiels: FunctionComponent = () => {
         <div className="flex gap-4 flex-col justify-center items-start p-4 md:p-8">
           <div className="text-[7vw] sm:text-[4vw] font-konR w-full items-center justify-center h-fit text-justify uppercase">
             Rent arrears during the hungry months when no coin could buy what
-            the earth wouldn't give. Famine and land clearances. The long
+            the earth wouldn&lsquo;t give. Famine and land clearances. The long
             scattering.
           </div>
         </div>

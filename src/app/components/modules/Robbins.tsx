@@ -20,7 +20,7 @@ const Robbins: FunctionComponent = () => {
           ...Administrative vandalism?
         </div>
         <div className="relative w-full justify-center font-konM text-black max-w-2xl flex">
-          Mistype that extra b! Convict names don't merit imperial accuracy.
+          Mistype that extra b! Convict names don&lsquo;t merit imperial accuracy.
           Thirteen years old. Disowned by Parents. Bristol City Quarter
           Sessions. Charged with stealing a picture. Grey eyes, brown hair,
           smallpox scars. Right arm, anchor and a mermaid carved in ink.
@@ -54,7 +54,7 @@ const Robbins: FunctionComponent = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 font-day gap-8 max-w-7xl w-full text-black text-sm my-4">
           <div className="text-center">
-            Carters' Barracks assigns him. Brutal school for boys. Leather
+            Carters&lsquo; Barracks assigns him. Brutal school for boys. Leather
             trades and leather lashes. Juvenile reform through birch switches
             cutting skin.
             <br />

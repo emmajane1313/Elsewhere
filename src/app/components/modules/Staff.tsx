@@ -120,7 +120,7 @@ const Staff: FunctionComponent = (): JSX.Element => {
             gold medal for all round performance in theory and practice. A
             respected identity. Duty and aspiration. A postwar girl seeks
             meaning in service. Some kind of freedom and independence. Her
-            brother's letters from Cairo shaped familiar duty. And Guy’s
+            brother&lsquo;s letters from Cairo shaped familiar duty. And Guy’s
             Hospital by 1954. A leap across class and county lines. From
             Staffordshire grocer’s daughter to London-trained nurse. Then the
             1960s passenger list. Aboard the Iberia. £10 assisted passage

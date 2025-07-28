@@ -57,7 +57,7 @@ const Kil: FunctionComponent = () => {
           <div className="relative w-fit h-fit font-sunday text-justify text-sm md:text-3xl">
             And I almost missed the Gaelic in Ballina. Béal an Átha. So close to
             Lennox Head. A mouth in New South Wales. Another in Killala Bay.
-            Maybe prison for theft in Darlinghurst, 1874. But the ink runs, and the clerk's cursive is just too tight. 
+            Maybe prison for theft in Darlinghurst, 1874. But the ink runs, and the clerk&lsquo;s cursive is just too tight. 
             You took the name Abrahams. A new story. Then childbirth took you.
             Age 27. 1882.
           </div>

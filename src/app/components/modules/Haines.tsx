@@ -40,7 +40,7 @@ const Haines: FunctionComponent = () => {
           From Port Adelaide, half a world away, Jane records in the South Australian Register.
           DIED. On the 1st of May, 1858, at Poplar, Blackwall, Mr. H. Hains,
           aged 80. Deeply regretted by a numerous circle of relatives and
-          friends. Late of the German Jews' Hospital, Mile End.
+          friends. Late of the German Jews&lsquo; Hospital, Mile End.
         </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
         <div className="bg-rojo flex gap-4 flex-col justify-center items-start p-8">
@@ -88,10 +88,10 @@ const Haines: FunctionComponent = () => {
           hundred years the record will suggest that you converted. Mid 20th
           century, Mormon archivists steal ship manifests and transcribe global
           migration records. For baptism by proxy. The retyped LDS Immigration
-          record for Rebecca and achim v'achayot. For posthumous spiritual trespass. Hundreds of
+          record for Rebecca and achim v&lsquo;achayot. For posthumous spiritual trespass. Hundreds of
           thousands of Jews and millions of others. Names stolen, records
           pilfered, forced conversion attempted after death. They offer
-          obfuscation and lies to conceal the truth. They've only marked
+          obfuscation and lies to conceal the truth. They&lsquo;ve only marked
           themselves for the accounting. Every harvested record is another
           charge in the ledger. Some debts collect with compound interest across
           eternities.
