@@ -70,7 +70,7 @@ const Abrahams: FunctionComponent = () => {
             </div>
           </div>
           <div className="relative flex max-w-4xl h-fit sm:top-60">
-            A later life mystery. A some point, a disappearance from the Sydney
+            A later life mystery. At some point, a disappearance from the Sydney
             records. Rachel remains listed alone in the directories for decades.
             A re-recorded name from Abraham to Joseph. Maybe he died between
             births and directories. Maybe he stepped out and never returned. A

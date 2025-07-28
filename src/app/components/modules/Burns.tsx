@@ -96,7 +96,7 @@ const Burns: FunctionComponent = () => {
         <div className="relative w-full flex leading-none text-justify text-[4vw] md:text-[2vw] font-konR text-black">
           God? Queen? Country? Australia never officially had African chattel
           slavery like the Caribbean or American South. It had a different,
-          equally brutal system. Just bureaucratically rebranded: Convicts,
+          similarly brutal system. Just bureaucratically rebranded: Convicts,
           Blackbirding, Stolen Generations.
         </div>
       </div>
