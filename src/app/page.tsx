@@ -13,6 +13,7 @@ import Vere from "./components/modules/Vere";
 import Mac from "./components/modules/Mac";
 import Abrahams from "./components/modules/Abrahams";
 import Shiels from "./components/modules/Shiels";
+import MusicaPlayer from "./components/modules/Musica";
 
 export default function Home() {
   return (
@@ -350,6 +351,7 @@ export default function Home() {
         );
       })}
       <Footer />
+      <MusicaPlayer />
     </div>
   );
 }
