@@ -70,8 +70,8 @@ const Staff: FunctionComponent = (): JSX.Element => {
         Trenchard’s Brats
       </div>
       <div className="relative w-full h-fit justify-center flex flex-col bg-white py-2 sm:py-20 text-black lg:items-start items-center">
-        <div className="flex relative lg:absolute w-fit h-fit lg:top-1/2 lg:left-4 order-3">
-          <div className="relative w-72 h-72">
+        <div className="flex relative lg:absolute w-full sm:w-fit h-fit lg:top-1/2 lg:left-4 order-3">
+          <div className="relative w-full sm:w-72 h-72">
             <Image
               src="/images/portrait.png"
               alt="Portrait"
@@ -81,8 +81,8 @@ const Staff: FunctionComponent = (): JSX.Element => {
             />
           </div>
         </div>
-        <div className="flex relative lg:absolute w-fit h-fit lg:top-4 lg:right-4 order-1">
-          <div className="relative w-72 h-72">
+        <div className="flex relative lg:absolute w-full sm:w-fit h-fit lg:top-4 lg:right-4 order-1">
+          <div className="relative w-full sm:w-72 h-72">
             <Image
               src="/images/raf.png"
               alt="RAF"

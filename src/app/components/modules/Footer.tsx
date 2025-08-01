@@ -69,7 +69,7 @@ const Footer: FunctionComponent = () => {
           </span>
         </div>
         <div className="bg-black flex flex-col justify-between items-start p-8 text-left">
-          <div className="text-[4rem] flex font-klar text-rojo">
+          <div className="text-[3rem] sm:text-[4rem] flex font-klar text-rojo">
             A fluid register persists.
           </div>
           <div className="relative flex text-xs text-white font-hal">
@@ -106,7 +106,7 @@ const Footer: FunctionComponent = () => {
           </h2>
         </div>
 
-        <div className="relative py-16" style={{overflowX: 'hidden', overflowY: 'visible'}}>
+        <div className="relative py-16">
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
             <div className="animate-spin" style={{ animationDuration: "60s" }}>
               <Image
@@ -115,7 +115,7 @@ const Footer: FunctionComponent = () => {
                 width={500}
                 height={500}
                 draggable={false}
-                className="opacity-50"
+                className="opacity-50 w-[80vw] sm:w-[60vw] md:w-[50vw] lg:w-[40vw] xl:w-[500px] h-auto"
               />
             </div>
           </div>
@@ -127,7 +127,7 @@ const Footer: FunctionComponent = () => {
                 width={200}
                 height={200}
                 draggable={false}
-                className="opacity-50"
+                className="opacity-50 w-[32vw] sm:w-[24vw] md:w-[20vw] lg:w-[16vw] xl:w-[200px] h-auto"
               />
             </div>
           </div>
