@@ -17,7 +17,7 @@ const Footer: FunctionComponent = () => {
         veins. So much voltage surging still, tomorrow. All this blood thunder,
         genetic memory, compressed and buried and renamed. I carry the weight
         forward. Every severed root, every salt crossed ocean. I am a Daughter
-        of Skye, immigrant struck, Australia forged. This is the heart that
+        of Skye, a Son of Fhionghuin, immigrant struck, Australia forged. This is the heart that
         dances within a million chambers.
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-6 md:grid-rows-3 lg:grid-rows-2 w-full min-h-screen text-center text-black text-xl md:text-2xl lg:text-3xl font-serif">
