@@ -81,6 +81,17 @@ const Staff: FunctionComponent = (): JSX.Element => {
             />
           </div>
         </div>
+        <div className="flex relative order-4 sm:absolute w-fit h-fit sm:bottom-4 mt-4 sm:right-4">
+          <div className="relative h-8 w-8 sm:w-12 sm:h-12">
+            <Image
+              src="/images/mawby.png"
+              alt="Mawby Crest"
+              layout="fill"
+              objectFit="contain"
+              draggable={false}
+            />
+          </div>
+        </div>
         <div className="flex relative lg:absolute w-full sm:w-fit h-fit lg:top-4 lg:right-4 order-1">
           <div className="relative w-full sm:w-72 h-72">
             <Image

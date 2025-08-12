@@ -18,7 +18,9 @@ const Vere: FunctionComponent = () => {
         </div>
 
         <div className="bg-black flex text-right text-[5vw] sm:text-[2.2vw] items-center p-8 font-one text-white">
-          But what was a Vere doing in Madrid by 1825? After the Peninsular Wars, stationed there, or stranded. Identity anxiety soaks in. The Vere drops to Lee only. Reinvents. Migrates.
+          But what was a Vere doing in Madrid by 1825? After the Peninsular
+          Wars, stationed there, or stranded. Identity anxiety soaks in. The
+          Vere drops to Lee only. Reinvents. Migrates.
         </div>
       </div>
       <div className="relative w-full h-96 md:h-screen flex py-10 px-3">
@@ -30,6 +32,17 @@ const Vere: FunctionComponent = () => {
             draggable={false}
             layout="fill"
           />
+        </div>
+        <div className="absolute bottom-4 right-4 h-fit w-fit flex">
+          <div className="relative w-12 h-12 flex">
+            <Image
+              src={"/images/vere.png"}
+              alt="Norman Shield"
+              objectFit="contain"
+              draggable={false}
+              layout="fill"
+            />
+          </div>
         </div>
       </div>
       <div className="bg-white text-rojo flex text-justify text-[5vw] sm:text-[2.2vw] items-center p-8 font-konB w-full h-fit">
