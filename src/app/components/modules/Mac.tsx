@@ -136,7 +136,7 @@ const Mac: FunctionComponent = () => {
           first King of Scots. Fighting alongside Robert the Bruce during the
           Wars of Scottish Independence. Legend holds that Bruce found shelter
           with the clan while evading capture after the Battle of Dalrigh in
-          1306 and awarded them land for their loyalty, bravery and protection.
+          1306 and awarded them land for their loyalty, bravery and protection. Then onto Bannockburn with MacDonald in 1314.
           Aligned with the powerful Lords of the Isles, becoming hereditary
           abbots on Iona and defenders of Gaelic traditions. In the 18th
           century, they were ardent Jacobites: fighting at Culloden in 1746,
