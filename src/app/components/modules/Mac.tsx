@@ -38,7 +38,7 @@ const Mac: FunctionComponent = () => {
         <div className="relative w-full h-fit flex text-justify font-rom text-[5vw] sm:text-[3vw] bg-rojo text-black">
           At the edge of their past in smoke and ash. Feeling for warmth that&lsquo;s
           no longer there. House to house through Kilmuir, then Glendale, then
-          Stenscholl. The last Skye born, 1857. All gone after the Highland
+          Stenscholl. The last Skye born, 1888. All gone after the Highland
           Clearances. Before forced diaspora.
         </div>
         <div className="flex relative h-96 md:min-h-screen w-full">
