@@ -6,7 +6,7 @@ const MusicaPlayer: FunctionComponent = (): JSX.Element => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [primeraInteraccion, setPrimeraInteraccion] = useState<boolean>(false);
 
-  const togglePlay = () => {
+  const togglePlay = async () => {
     const audio = audioRef.current;
     if (!audio) return;
 
@@ -14,21 +14,25 @@ const MusicaPlayer: FunctionComponent = (): JSX.Element => {
       audio.pause();
       setIsPlaying(false);
     } else {
-      audio.play();
-      setIsPlaying(true);
+      try {
+        await audio.play();
+        setIsPlaying(true);
+      } catch (error) {
+        console.log('Error playing audio:', error);
+      }
     }
   };
 
   useEffect(() => {
-    const handlePrimeraInteraccion = () => {
+    const handlePrimeraInteraccion = async () => {
       if (!primeraInteraccion && audioRef.current) {
-        audioRef.current
-          .play()
-          .then(() => {
-            setIsPlaying(true);
-            setPrimeraInteraccion(true);
-          })
-          .catch(() => {});
+        try {
+          await audioRef.current.play();
+          setIsPlaying(true);
+          setPrimeraInteraccion(true);
+        } catch (error) {
+          console.log('Error in primera interaccion:', error);
+        }
       }
     };
 
